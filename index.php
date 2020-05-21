@@ -29,6 +29,7 @@ $random = array_rand($word);
 
         h1 {
             margin: 100px auto;
+            font-size: 45px;
         }
     </style>
 </head>
