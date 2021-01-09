@@ -7,7 +7,7 @@ if(isset($_GET['toss'])) {
     $number2 = rand(1,6);
 }
 elseif(isset($_GET['reset'])) {
-    header("Location: https://vidito.herokuapp.com/dice.php");
+    header("Location: https://vidito.herokuapp.com");
 }
 
 
@@ -37,7 +37,7 @@ elseif(isset($_GET['reset'])) {
                 </div>
 
                 <div class="text-center mt-3 pt-3">
-                <form action="dice.php" method="GET">
+                <form action="index.php" method="GET">
                     <button type="submit" name="toss" class="btn btn-primary btn-block ">Toss the dice</button>
                     <button type="submit" name="reset" class="btn btn-primary btn-block ">Reset</button>
                     </form>
