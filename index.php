@@ -7,7 +7,7 @@ if(isset($_GET['toss'])) {
     $number2 = rand(1,6);
 }
 elseif(isset($_GET['reset'])) {
-    header("Location: http://localhost/1/dice.php");
+    header("Location: https://vidito.herokuapp.com/dice.php");
 }
 
 
