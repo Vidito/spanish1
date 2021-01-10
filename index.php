@@ -56,7 +56,7 @@ else {
                 </div>
 
                 <div class="text-center mt-3 pt-3">
-                <form action="riddles.php" method="GET">
+                <form action="index.php" method="GET">
                     <button type="submit" name="r1" class="btn btn-primary btn-block ">Riddle 1</button>
                     <button type="submit" name="r2" class="btn btn-primary btn-block ">Riddle 2</button>
                     <button type="submit" name="r3" class="btn btn-primary btn-block ">Riddle 3</button>
