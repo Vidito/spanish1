@@ -3,55 +3,55 @@ if(isset($_GET['r1'])) {
     $ra1=1;
 }
 elseif(isset($_GET['s1'])) {
-    $s1=1;
+    $s1=11;
 }
 elseif(isset($_GET['r2'])) {
     $r2=2;
 }
 elseif(isset($_GET['s2'])) {
-    $s2=2;
+    $s2=21;
 }
 elseif(isset($_GET['r3'])) {
     $r3=3;
 }
 elseif(isset($_GET['ss'])) {
-    $s3=3;
+    $s3=31;
 }
 elseif(isset($_GET['r4'])) {
     $r4=4;
 }
 elseif(isset($_GET['s4'])) {
-    $s4=4;
+    $s4=41;
 }
 elseif(isset($_GET['r5'])) {
     $r5=5;
 }
 elseif(isset($_GET['s5'])) {
-    $s5=5;
+    $s5=51;
 }
 elseif(isset($_GET['r6'])) {
     $r6=6;
 }
 elseif(isset($_GET['s6'])) {
-    $s6=6;
+    $s6=61;
 }
 elseif(isset($_GET['r7'])) {
     $r7=7;
 }
 elseif(isset($_GET['s7'])) {
-    $s7=7;
+    $s7=71;
 }
 elseif(isset($_GET['r8'])) {
     $r8=8;
 }
 elseif(isset($_GET['s8'])) {
-    $s8=8;
+    $s8=81;
 }
 elseif(isset($_GET['r9'])) {
     $r9=9;
 }
 elseif(isset($_GET['s9'])) {
-    $s9=9;
+    $s9=91;
 }
 
 else {
@@ -118,15 +118,15 @@ else {
                 <img src="<?php echo $r7.'.jpg';?>" alt=""> 
                 <img src="<?php echo $r8.'.jpg';?>" alt=""> 
                 <img src="<?php echo $r9.'.jpg';?>" alt=""> 
-                <img src="<?php echo $s1.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s2.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s3.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s4.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s5.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s6.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s7.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s8.'1.jpg';?>" alt=""> 
-                <img src="<?php echo $s9.'1.jpg';?>" alt="">
+                <img src="<?php echo $s1.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s2.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s3.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s4.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s5.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s6.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s7.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s8.'.jpg';?>" alt=""> 
+                <img src="<?php echo $s9.'.jpg';?>" alt="">
                 </div>
 
                 </div>
